@@ -41,7 +41,7 @@ export const products = [
     price: 14000,
     stock: 16,
     imageUrl: "https://res.cloudinary.com/dwxeovcwr/image/upload/v1730236327/Marquise_Diamond_Ring_fkto7q.jpg",
-    descriptio: "anillo marques con piedra blanca incrustrada ",
+    description: "anillo marques con piedra blanca incrustrada ",
     category: "anillos",
 },
 {
@@ -50,7 +50,7 @@ export const products = [
     price: 15000,
     stock: 9,
     imageUrl: "https://res.cloudinary.com/dwxeovcwr/image/upload/v1730236286/Victoria_Stone_Encrusted_Leaf_Ring_tb4tqh.jpg",
-    descriptio: "anillo victoria, forma con hojas de laurel, con piedras incrustradas",
+    description: "anillo victoria, forma con hojas de laurel, con piedras incrustradas",
     category: "anillos",
 }
    
