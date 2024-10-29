@@ -13,11 +13,10 @@
   margin-left: 20px;
 }
 
-
 .navbar-menu {
   display: flex;
-  list-style: none; 
-  gap: 10px; 
+  list-style: none;
+  gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +28,7 @@
 }
 
 .navbar-menu li:hover {
-  color: #f5b041; 
+  color: #f5b041;
 }
 
 .cartWidget {

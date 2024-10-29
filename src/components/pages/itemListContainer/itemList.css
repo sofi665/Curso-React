@@ -1,0 +1,63 @@
+/* Contenedor de la Tarjeta */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+/* Título de la Tarjeta */
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Precio del Producto */
+.card-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #bc9e2c;
+    margin: 5px 0;
+}
+
+/* Stock del Producto */
+.card-stock {
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* Botón de Ver Detalles */
+.card-container button {
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #bc9e2c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.card-container button:hover {
+    background-color: #a68523;
+}
