@@ -1,4 +1,4 @@
-/* Estilos para el contenedor de detalles del ítem */
+
 .item-detail-container {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-/* Estilo para la descripción del ítem */
+
 .item-description {
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
@@ -21,7 +21,7 @@
     margin: 10px 0;
 }
 
-/* Estilo para la imagen del ítem */
+
 .item-image {
     width: 100%;
     max-width: 500px;

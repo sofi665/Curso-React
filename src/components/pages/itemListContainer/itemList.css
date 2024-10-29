@@ -1,4 +1,4 @@
-/* Contenedor de la Tarjeta */
+
 .card-container {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     transform: scale(1.05);
 }
 
-/* Título de la Tarjeta */
+
 .card-title {
     font-size: 1.3rem;
     font-weight: bold;
@@ -28,7 +28,7 @@
     margin-bottom: 10px;
 }
 
-/* Precio del Producto */
+
 .card-price {
     font-size: 1.1rem;
     font-weight: bold;
@@ -36,7 +36,7 @@
     margin: 5px 0;
 }
 
-/* Stock del Producto */
+
 .card-stock {
     font-size: 0.9rem;
     color: #888;
@@ -44,7 +44,7 @@
     margin: 5px 0;
 }
 
-/* Botón de Ver Detalles */
+
 .card-container button {
     padding: 10px 15px;
     font-weight: 600;
