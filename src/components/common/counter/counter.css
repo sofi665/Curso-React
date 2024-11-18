@@ -1,0 +1,64 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .counter-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .counter-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .counter-sumar {
+    background-color: #28a745;
+  }
+  
+  .counter-sumar:hover {
+    background-color: #218838;
+  }
+  
+  .counter-restar {
+    background-color: #dc3545;
+  }
+  
+  .counter-restar:hover {
+    background-color: #c82333;
+  }
+  
+  .counter-add-to-cart {
+    background-color: #ffc107;
+  }
+  
+  .counter-add-to-cart:hover {
+    background-color: #e0a800;
+  }
+  
+  .counter-value {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  

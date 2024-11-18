@@ -1,0 +1,83 @@
+
+/* Contenedor principal */
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fff7e6;
+  padding: 20px;
+}
+
+/* Estilo del formulario */
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #ffebcc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Inputs del formulario */
+.checkout-input {
+  padding: 10px 15px;
+  border: 2px solid #f5c46a;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.checkout-input:focus {
+  border-color: #f5b041;
+  outline: none;
+  background-color: #fff9e6;
+}
+
+/* Botones */
+.checkout-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f5b041;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #e89e28;
+  transform: scale(1.05);
+}
+
+.checkout-btn:disabled {
+  background-color: #f7d9b0;
+  cursor: not-allowed;
+}
+
+.checkout-btn-cancel {
+  background-color: #d9534f;
+  margin-top: 10px;
+}
+
+.checkout-btn-cancel:hover {
+  background-color: #c9302c;
+}
+
+/* Mensaje de orden completada */
+.checkout-order-id {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  color: #f5a623;
+  text-align: center;
+  margin: 20px 0;
+}

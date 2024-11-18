@@ -1,5 +1,7 @@
+
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import "./counter.css"; 
 
 const Counter = ({ stock, agregarAlCarrito, totalInCart = 0 }) => {
     const [contador, setContador] = useState(1);
@@ -19,11 +21,20 @@ const Counter = ({ stock, agregarAlCarrito, totalInCart = 0 }) => {
     };
 
     return (
-        <div>
-            <button onClick={sumar}>Sumar</button>
-            <h2>Contador: {contador}</h2>
-            <button onClick={restar}>Restar</button>
-            <button onClick={() => agregarAlCarrito(contador)}>Agregar al carrito</button>
+        <div className="counter-container">
+            <button className="counter-btn counter-sumar" onClick={sumar}>
+                Sumar
+            </button>
+            <h2 className="counter-value">Contador: {contador}</h2>
+            <button className="counter-btn counter-restar" onClick={restar}>
+                Restar
+            </button>
+            <button
+                className="counter-btn counter-add-to-cart"
+                onClick={() => agregarAlCarrito(contador)}
+            >
+                Agregar al carrito
+            </button>
         </div>
     );
 };
