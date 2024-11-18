@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import { Link } from "react-router-dom";
-import { CartWidget } from "../../common/cartWidget/cartWidget";
+import { CartWidget } from "../../common/cartWidget/CartWidget";
+
 import "./navbar.css";
 
 export const Navbar = () => {
