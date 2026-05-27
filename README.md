@@ -1,8 +1,41 @@
-# React + Vite
+# Simpli Jewelry Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pequeño ecommerce de joyería desarrollado como proyecto final del curso de React JS en Coderhouse.
 
-Currently, two official plugins are available:
+La aplicación simula una tienda online donde los usuarios pueden visualizar productos, navegar entre categorías y gestionar un carrito de compras de manera dinámica utilizando React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
+
+* React JS
+* JavaScript
+* HTML5
+* CSS3
+* React Router
+* Firebase
+
+## Funcionalidades
+
+* Visualización dinámica de productos
+* Navegación entre categorías
+* Detalle individual de productos
+* Carrito de compras
+* Manejo de estado con React Hooks
+* Renderizado dinámico de componentes
+
+## Objetivo del proyecto
+
+Este proyecto fue desarrollado con el objetivo de aplicar conceptos fundamentales de React como:
+
+* Componentes reutilizables
+* Props y estados
+* Hooks
+* Routing
+* Consumo y manejo de datos
+
+## Demo
+
+Gif de proyecto en  Gif_muestraPagina
+
+## Autor
+
+Desarrollado por Sofía Dorado Arias.
